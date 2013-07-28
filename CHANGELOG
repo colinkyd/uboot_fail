@@ -1,0 +1,21 @@
+Jun 19 2013
+- fixed problem with booting in some cases on all supported models
+- support for TL-MR10U ver. 1.x (tested on ver. 1.0)
+- support fot TL-MR3220 ver. 2.x (tested on ver. 2.1)
+- support for TL-WR720N ver. 3 (only for Chinese version!)
+- support for new flash types/series: Macronix MX25L128 and SST 25VF064C
+- version for TL-WR740N v4 was tested also on TL-WR741ND ver. 4.2 (it's almost the same hardware)
+
+Apr 22 2013
+- support for TL-WR740N ver. 4 (tested on ver. 4.23)
+- NetConsole
+- flash recognize by JEDEC ID (please, see README for full list)
+- returned to instruction 0xD8 for flash erasing (64 KiB block erase)
+- setmac command
+- web pages lifting
+- some bugs fixed
+- predefined overclocking profiles in code (please, see ap121.h)
+
+Mar 29 2013
+- initial release
+
